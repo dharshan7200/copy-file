@@ -26,7 +26,7 @@ Register Number: 23001663
 
 with open("text1.txt",'r') as fp:
     msg1=fp.read()
-with open("copytxt",'w') as fp1:
+with open("copy.txt",'w') as fp1:
     fp1.write(msg1)
 ```
 ### OUTPUT:
